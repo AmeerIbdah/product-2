@@ -2,35 +2,53 @@
 <html lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>معرض المنتجات</title>
-   
+    <title> </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <div class="container">
-        <h1>معرض المنتجات</h1>
-        <div class="products">
-            <div class="product">
-                <img src="product1.jpg" alt="منتج 1">
-                <h3>اسم المنتج 1</h3>
-                <p class="price">100 شيكل</p>
-                <p>وصف قصير للمنتج 1</p>
-            </div>
-            <div class="product">
-                <img src="product2.jpg" alt="منتج 2">
-                <h3>اسم المنتج 2</h3>
-                <p class="price">150 شيكل</p>
-                <p>وصف قصير للمنتج 2</p>
-            </div>
-            <div class="product">
-                <img src="product3.jpg" alt="منتج 3">
-                <h3>اسم المنتج 3</h3>
-                <p class="price">200 شيكل</p>
-                <p>وصف قصير للمنتج 3</p>
-            </div>
-            <!-- يمكنك إضافة المزيد من المنتجات هنا -->
+<body class="bg-blue-200 text-blue-950">
+    <nav class="bg-blue-300 p-4 rounded-b-lg">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-blue-950 text-2xl font-bold">ELECTRONIATAK.COM</h1>
+        </div> 
+    </nav>
+    <div class="container mx-auto p-6">
+        <h1 class="text-3xl font-bold mb-6 text-center"></h1>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div class="product bg-blue-200 shadow-md rounded-lg p-4 text-center relative">
+                <span class="absolute top-2 left-2 text-yellow-500 font-bold text-lg">$500</span>
+                <img src="./main-pro.jpg" alt="منتج 1" class="w-full max-w-[200px] mx-auto rounded-lg mb-4">
+                <h3 class="text-xl font-semibold mb-2">washing machine LG</h3>
+                <div class="flex justify-center gap-2 mt-4">
+                    <img src="./first.pro.jpeg" alt= "" class="w-20 h-20 rounded-lg">
+                    <img src="./second.pro.jpeg" alt="" class="w-20 h-20 rounded-lg">
+                </div>
+                <a href="#" class="block w-full mt-4 text-center bg-blue-300 hover:bg-blue-400 text-blue-950 font-bold py-2 px-4 rounded-full">Shopping bag</a>
+                <div>
+                   
+            </div>  
+          
         </div>
-        <a href="#" class="shopping-bag">سلة التسوق</a>
+        </div>
     </div>
-</body>
-</html>
+    <div class="mt-8 bg-blue-200 p-6 rounded-lg shadow-lg">
+        <h1 class="text-blue-950 text-2xl font-bold mb-4">Specifications</h1>
+        <ul class="text-blue-950 text-lg font-medium list-disc pl-6 mb-6">
+            <li>Capacity: 10 Kg</li>
+            <li>Motor: Inverter Direct Drive for energy efficiency</li>
+            <li>Color: Black</li>
+            <li>Maximum Spin Speed: 1400 RPM</li>
+            <li>Door Type: Tempered glass with black outer frame</li>
+            <li>Control & Display: LED touch panel with rotary knob</li>
+        </ul>
+        <h2 class="text-blue-950 text-2xl font-bold mb-4">Technologies & Features</h2>
+        <ul class="text-blue-950 text-lg font-medium list-disc pl-6">
+            <li>AI DD™: Artificial intelligence for optimal fabric care.</li>
+            <li>Inverter DirectDrive: High-efficiency motor for reduced energy and vibration.</li>
+            <li>6 Motion DD: Multiple washing motions for thorough cleaning and fabric care.</li>
+            <li>Steam: Removes odors and bacteria with steam cleaning.</li>
+            <li>TurboWash™: Quick and deep cleaning while saving time and energy.</li>
+        </ul>
+    </div> 
+</body>    
+</html>          
